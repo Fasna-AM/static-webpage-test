@@ -1,0 +1,201 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+#home {
+    /* border: solid; */
+    width: 100%;
+    height: 100vh;
+    background-image: url(./images/bg.jpg);
+    background-size: cover;
+    /* border: solid; */
+}
+
+.nav-head {
+    color: orange;
+    font-size: 100px;
+}
+
+span {
+    font-weight: 600;
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+    color: white;
+}
+
+#enquiry-btn {
+    margin-top: 30%;
+    margin-left: 50%;
+}
+
+.contents {
+    width: 50%;
+    margin-left: 60%;
+    margin-top: -30%;
+}
+
+.head2,
+.head1 {
+    font-size: 70px;
+}
+
+.head2 {
+    font-family: "Dancing Script", cursive;    font-weight: 600;
+}
+
+#submit-btn {
+    background-color: blueviolet;
+    color: white;
+    margin-right: 40%;
+}
+
+.packages {
+    margin-top: -150px;
+    /* border: solid; */
+}
+
+.pack-card:hover {
+    transform: scale(1.1);
+
+}
+
+.morepack {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.morepack>a {
+    background-color: rgb(4, 4, 122);
+    color: white;
+}
+
+.morepack>a:hover {
+    background-color: red;
+    color: white;
+}
+
+#carouselExampleCaptions {
+    margin: 4%;
+    width: 90%;
+    height: 100%;
+}
+
+.festival-heaad {
+    text-align: center;
+}
+
+.img-carousal {
+    height: 500px;
+}
+
+.carousel-caption>h5 {
+    font-size: 50px;
+    color: blue;
+    text-shadow: 2px 2px white;
+}
+
+.festivals-images {
+    margin: 4%;
+
+}
+
+.div-2 {
+    margin-left: -20px;
+}
+
+.div-3 {
+    margin-left: -60px;
+
+}
+
+.card2,.card3,.card4 {
+    height: 280px;
+}
+
+.card-img {
+    height: 250px;
+}
+
+.card-content {
+    background-color: aqua;
+    /* display: none; */
+    height: 250px;
+
+
+}
+
+.img-div:hover{
+    .img-div1{
+        z-index: 1;
+  
+    }
+}
+.feature-card{
+    height: 50px;
+}
+.features>p{
+font-size: 30px;
+font-family: "Dancing Script", cursive;
+font-weight: 600;
+}
+.feature-card>img{
+    width: 250px;
+    height: 250px;
+}
+.features-body>a{
+    text-decoration: none;
+    color: blueviolet;
+    font-size: 20px;
+}
+.reviews{
+    background-color: gainsboro;
+}
+.envolop-icon{
+    margin-top: 20px;
+    margin-left: 48%;
+    font-size: 50px;
+    color: goldenrod;
+}
+.review-head {
+    margin-top: 20px;
+    font-family: "Dancing Script", cursive;
+
+}
+.review-img{
+    width: 250px;
+    height: 250px;
+}
+.review-div{
+    margin: 10%;
+}
+.footer{
+    margin-top: -100px;
+    background-color: rgb(2, 2, 69);
+}
+.footer-div{
+    margin: 10%;
+}
+.footer-head{
+    color: goldenrod;
+
+}
+.footer-content{
+    color: white;
+}
+.footer-icon{
+    color: white;
+    font-size: 40px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer-img{
+    width: 40%;
+}
